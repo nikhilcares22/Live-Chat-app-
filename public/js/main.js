@@ -20,7 +20,6 @@ socket.on("roomUsers", ({ room, users }) => {
 })
 
 socket.on("message", (message) => {
-    console.log(message);
     outputMessage(message)
 
     //scroll down
